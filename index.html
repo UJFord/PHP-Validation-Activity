@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- font awesome stylesheet -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="css/index.css">
+  <title>Our Newsletter | Register</title>
+</head>
+<body>
+	
+	<!-- main card -->
+	<div id="main-card">
+		
+		<header>
+			<h1>Subscribe to Our Newsletter</h1>
+		</header>
+		
+		<!-- main form -->
+		<form action="" method="" accept-charset="utf-8">
+			
+			<!-- email -->
+			<div id="email-container" class="field-container">
+				<!-- icon -->
+				<i class="fa fa-envelope" aria-hidden="true"></i>
+				<!-- field -->
+				<input type="email" name="email" id="email" placeholder="Email" />
+			</div>
+			
+			<!-- password -->
+			<div id="pass-container" class="field-container">
+				<!-- icon -->
+				<i class="fa fa-lock fa-lg" aria-hidden="true"></i>
+				<!-- field -->
+				<input type="password" name="password" id="pass" placeholder="Password" />
+			</div>
+			
+			<!-- confirm password -->
+			<div id="repass-container" class="field-container">
+				<!-- icon -->
+				<i class="fa fa-lock fa-lg" aria-hidden="true"></i>
+				<!-- field -->
+				<input type="password" name="repass" id="pass" placeholder="Re-type Password" />
+			</div>
+			
+			<!-- name -->
+			<div id="name-container" class="field-container">
+				
+				<!-- first name -->
+				<div id="fname-container">
+					<!-- icon -->
+					<i class="fa fa-user fa-lg" aria-hidden="true"></i>
+					<!-- field -->
+					<input type="text" name="fname" id="fname" placeholder="First Name" />
+				</div>
+				
+				<!-- last name -->
+				<div id="lname-container">
+					<!-- icon -->
+					<i class="fa fa-user fa-lg" aria-hidden="true"></i>
+					<!-- field -->
+					<input type="text" name="lname" id="lname" placeholder="Last Name" />
+				</div>
+			</div>
+			
+			
+			<!-- gender -->
+			<div id="gender-container" class="field-container">
+				<!-- male -->
+				<input type="radio" name="gender" id="male" value="Male"/>
+				<label for="male">Male</label>
+				<!-- female -->
+				<input type="radio" name="gender" id="female" value="Female"/>
+				<label for="female">Female</label>
+				<input type="radio" name="gender" id="other" value="Other"/>
+				<label for="other">Other</label>
+				<!-- other -->
+			</div>
+			
+			<!-- city -->
+			<div id="city-container" class="field-container">
+				<!-- options -->
+				<select>
+					<!-- blank starter option -->
+					<option value="" disabled selected>Select a city</option>
+					<!-- valid options -->
+					<option value="Gensan">Gensan</option>
+					<option value="Manila">Manila</option>
+					<option value="Davao">Davao</option>
+					<option value="Cebu">Cebu</option>
+					<option value="Quezon">Quezon</option>
+				</select>
+			</div>
+			
+			<!-- agree to terms and conditions -->
+			<div id="tac-container" class="field-container">
+				<!-- checkbox -->
+				<input type="checkbox" id="agreeTAC" name="agreeTAC" value="true">
+				<!-- label -->
+				<label for="agreeTAC"><a href="#">I agree with terms and conditions</a></label>
+			</div>
+			
+			<!-- register button -->
+			<div id="btn-container" class="field-container">
+				<button id="btn" type="submit" class="field-container">Register</button>
+			</div>
+		</form>
+	</div>
+	
+	<!-- scripts -->
+  <script src="js/index.js"></script>
+</body>
+</html>
